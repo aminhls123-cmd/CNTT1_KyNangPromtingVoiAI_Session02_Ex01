@@ -1,13 +1,20 @@
 # Bài 1: Bóc tách 6 thành phần cốt lõi trong công thức CREATE
 
-## Phần 1: Cách AI hoạt động
-- AI không "suy nghĩ" mà hoạt động dựa trên xác suất thống kê để dự đoán từ tiếp theo.
+## Phần 1: Lỗi của Tuấn (Thiếu 5 phần CREATE)
+Thiếu Character: AI không biết vai trò 
+-> Viết chung chung, thiếu chuyên môn.
 
-- Có giới hạn bộ nhớ tạm thời gọi là Cửa sổ ngữ cảnh; vượt quá giới hạn này, AI sẽ quên các chỉ thị ban đầu.
+Thiếu Examples: Không có bài mẫu 
+-> Văn phong sáo rỗng.
 
-## Phần 2: 3 Cách nhận diện & Phòng tránh "Ảo giác"
-- Kiểm chứng trực tiếp: Luôn chạy thử code hoặc đối chiếu số liệu trên môi trường thực tế.
+Thiếu Adjustment: Quên giá & đối tượng khách 
+-> Bài viết không có điểm nhấn.
 
-- Yêu cầu giải thích logic: Bắt AI trình bày rõ các bước lập luận hoặc giải thích chi tiết từng dòng thay vì tin kết quả chung chung.
+Thiếu Type of Output: Không có độ dài, bố cục 
+-> Dài dòng, khó đọc.
 
-- Cung cấp ngữ cảnh: Đưa tài liệu chuẩn vào prompt để AI bám sát dữ liệu gốc, tránh tình trạng tự bịa đặt.
+Thiếu Extras: Không có icon, hashtag 
+-> Nhàm chán, kém tương tác.
+
+## Phần 2: Câu lệnh mẫu hoàn chỉnh
+- "Bạn là chuyên viên Content Marketing của TechShop. Hãy viết bài Facebook ngắn gọn quảng cáo iPhone mới cho giới trẻ. Nhấn mạnh ưu đãi giảm 2 triệu và tặng sạc nhanh. Mở đầu bắt tai, dùng gạch đầu dòng cho ưu đãi, kèm icon sinh động và hashtag #TechShop #iPhoneMoi."
